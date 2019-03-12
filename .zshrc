@@ -5,4 +5,4 @@ plugins=(
 )
 source $ZSH/oh-my-zsh.sh
 alias genpwd="tr -cd '[:alnum:]' < /dev/urandom | fold -w30 | head -n1"
-alias dockerrmall="docker rm -fv $(docker ps -a -q)"
+alias dockerrmall='docker rm -fv $(docker ps -a -q)'

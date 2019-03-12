@@ -9,11 +9,10 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-Plugin 'ivanov/vim-ipython'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'scrooloose/nerdtree'
-Plugin 'rdnetto/YCM-Generator'
 Plugin 'dracula/vim'
+Plugin 'Chiel92/vim-autoformat'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
