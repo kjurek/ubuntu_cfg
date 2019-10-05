@@ -37,6 +37,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 colo dracula
+syntax on
 nnoremap <C-S-h> :tabprevious<CR>
 nnoremap <C-S-l>   :tabnext<CR>
 nnoremap <C-t>     :tabnew<CR>
@@ -51,4 +52,3 @@ map <S-F10> :YcmCompleter GoToDefinition<CR>
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
-
