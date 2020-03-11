@@ -10,4 +10,8 @@ alias dockerkillall='docker kill $(docker ps -a -q)'
 alias clipcopy='xclip -selection "clipboard"'
 alias clippaste='xclip -o -selection "clipboard"'
 
+function cr() {
+    g++ "$@" && ./a.out
+}
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
